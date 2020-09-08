@@ -2,10 +2,9 @@
 
 export class User {
     id: number;
-    username: string;
-    password: string;
     firstName: string;
     lastName: string;
+    username: string;
     role: Role;
     token?: string;
 }
